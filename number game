@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+int user_guess, fav_num;
+  fav_num = 7;
+char again = 'Y';
+while (again =='y' || again == 'Y')
+{
+  
+  cout << "Guess a number between 1 and 10" << endl;
+  cin >> user_guess;
+
+  if (user_guess == 7)
+  cout << "You win!" << endl;
+     else if (user_guess , 7)
+  cout << "You guessed too low" << endl;
+   else 
+  cout << "You guessed too high" << endl;
+    
+cout << "Play again? (y/n)\n";
+  cin >> again;
+
+  if (again != 'y' || 'Y')
+    cout << "Main Menu\n"; 
+ 
+  }//end while loop
+  return 0;
+  }
